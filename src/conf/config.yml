@@ -1,0 +1,10 @@
+datasource:
+  filename: 'COVID-19 Activity.csv'
+
+databases:
+  registry:
+    host: 'localhost'
+    database: 'postgres'
+    port: 20040
+    user: 'master'
+    password: 'secret'

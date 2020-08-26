@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  database:
+    image: postgres
+    container_name: database
+    restart: always
+    ports:
+      - 20040:5432
+    volumes:
+      - ./database:/database
+    environment:
+      POSTGRES_DB: etl_db
+      POSTGRES_USER: master
+      POSTGRES_PASSWORD: secret
