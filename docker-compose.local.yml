@@ -9,6 +9,6 @@ services:
     volumes:
       - ./database:/database
     environment:
-      POSTGRES_DB: etl_db
+      POSTGRES_DB: postgres
       POSTGRES_USER: master
       POSTGRES_PASSWORD: secret
