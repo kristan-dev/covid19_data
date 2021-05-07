@@ -30,15 +30,6 @@ docker-compose -f docker-compose.local.yml up --build
 The data contains comprehensive information about logged COVID 19 cases in a given area. The raw data in itself is good but can still be transformed depending on the requirements
 of the models created by the data scientists.
 
-## Why do you think it can be interesting for RingCentral
-
-1) The data can be used by RingCentral to push for targetted ads depending on the location and number of covid 19 cases.
-An area with a high number of cases could mean more people staying home, which means more people communicating to each online and may need RingCentral's solutions.
-
-## Your thoughts regarding the project
-
-I think the project has a lot of potential, given the proper requirements, a fully realized ETL can be created, ready to used by your Data Scientists or be consumed by your Business Intelligence Application.
-
 ## Versioning
 Version 1.0.0
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
